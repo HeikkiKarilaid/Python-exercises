@@ -3,9 +3,9 @@ print("A paper, rock, scissors game.")
 win=False
 
 while win==False:
-    user_input=input("Input Rock, paper or scissors--->")
+    user_input=input("Input Rock, paper or scissors--->")# Users choice
     user_input=user_input.lower()
-    comp=random.choice(['rock','paper', 'scissors'])
+    comp=random.choice(['rock','paper', 'scissors']) #random rock, paper or scissors for computer
     if user_input=='rock' and comp=='scissors':
         print(f'Computer has {comp}' )
         print('Rock beats scissors. You win!')
